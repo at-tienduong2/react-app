@@ -1,0 +1,45 @@
+.main-logo {
+  width: 126px;
+  height: auto;
+}
+
+.header-top {
+  @include pxRem(min-height, 80);
+  margin-top: 40px !important;
+  background-color: $color-primary;
+  position: relative;
+  .main-menu {
+    width: 60%;
+    align-self: center;
+    a {
+      @include pxRem(padding, 15 20);
+      @include pxRem(font-size, 16);
+      color: $color-a;
+    }
+  }
+  .header-logo {
+    width: 20%;
+    position: relative;
+    .main-logo {
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      transform: translateY(-50%);
+    }
+  }
+}
+.menu-part {
+  display: flex;
+  width: 20%;
+  height: 40px;
+  align-self: center;
+  .content {
+    align-self: center;
+    .icon {
+      @include pxRem(margin, 0 10);
+      color: $color-a;
+    }
+ 
+  }
+}
+

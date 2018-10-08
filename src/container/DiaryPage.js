@@ -6,6 +6,7 @@ class DiaryPage extends Component {
     return (
       <div className="diarypage">
         { this.props.children }
+        How are you?
       </div>
     )
   }
