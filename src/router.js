@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import AboutPage from './container/AboutPage'
-import TopPage from './container/TopPage'
-import DiaryPage from './container/DiaryPage'
-import ContactPage from './container/ContactPage'
-import TopNav from './container/Topnav';
+import AboutPage from './containers/AboutPage'
+import TopPage from './containers/TopPage'
+import DiaryPage from './containers/DiaryPage'
+import ContactPage from './containers/ContactPage'
+import TopNav from './containers/Topnav';
 
 
 const MainRouter = () => (

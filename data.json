@@ -16,22 +16,78 @@
   "specialties": [
     {
       "id": 1,
-      "title": "macarons",
-      "imageUrl": "/img/macaron-01.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing."
+      "title": "cup cakes",
+      "imageUrl": "/img/icon_img1.png",
+      "description": "Distribution,rural development, assitance integrity approch empowerment vaccies pride.thinkers who make change happen"
     },
     {
       "id": 2,
-      "title": "cookies",
-      "imageUrl": "/img/macaron-02.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing."
+      "title": "wedding cakes",
+      "imageUrl": "/img/icon_img2.png",
+      "description": "Distribution,rural development, assitance integrity approch empowerment vaccies pride.thinkers who make change happen"
     },
     {
       "id": 3,
-      "title": "biscostis",
-      "imageUrl": "/img/macaron-02.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing."
+      "title": "cookies cake",
+      "imageUrl": "/img/icon_img3.png",
+      "description": "Distribution,rural development, assitance integrity approch empowerment vaccies pride.thinkers who make change happen"
+    }
+  ],
+  "popular": [
+    {
+      "id": 1,
+      "title": "beautiful cake",
+      "content": " Distribution,rural development,assitance integrity approch empowerment...",
+      "imageUrl": "/img/product2_03.jpg"
+    },
+    {
+      "id": 2,
+      "title": "beautiful cake",
+      "content": " Distribution,rural development,assitance integrity approch empowerment...",
+      "imageUrl": "/img/product4_03_grande.jpg"
+    },
+    {
+      "id": 3,
+      "title": "beautiful cake",
+      "content": " Distribution,rural development,assitance integrity approch empowerment...",
+      "imageUrl": "/img/product5_03_grande.jpg"
+    },
+    {
+      "id": 4,
+      "title": "beautiful cake",
+      "content": " Distribution,rural development,assitance integrity approch empowerment...",
+      "imageUrl": "/img/product6_03_grande.jpg"
+    },
+    {
+      "id": 5,
+      "title": "beautiful cake",
+      "content": " Distribution,rural development,assitance integrity approch empowerment...",
+      "imageUrl": "/img/prt4_03_grande.jpg"
+    },
+    {
+      "id": 6,
+      "title": "beautiful cake",
+      "content": " Distribution,rural development,assitance integrity approch empowerment...",
+      "imageUrl": "/img/product1_03_grande.jpg"
+    }
+  ],
+  "sectionHeader": [
+    {
+      "id": 1,
+      "title": "most populer creations",
+      "imgUrl": "/img/show_divider_1.png"
+    },
+    {
+      "id": 2,
+      "title": "Best Deals",
+      "imgUrl": "/img/show_divider_2.png"
+    },
+    {
+      "id": 3,
+      "title": "layer cakes",
+      "imgUrl": "/img/show_divider_3.png"
     }
   ]
+  
 }
 
