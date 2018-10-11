@@ -1,3 +1,13 @@
 .lp-banner-01 {
   @include pxRem(margin-top, -40);
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 19px;
+    background: url(https://cdn.shopify.com/s/files/1/1284/6493/files/iconbgtopimg.png?v=1530960253) repeat-x;
+    left: 0;
+  }
 }

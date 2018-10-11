@@ -34,7 +34,7 @@ class AboutPage extends Component {
         <Button onClick={this.toggleClick}>
           {this.state.show ? 'Hide number': 'Show number'}
         </Button>
-        {this.state.show ? <h2>{this.state.count}</h2> : 'hide number'}
+        {this.state.show ? <h2>{this.state.count}</h2> : <p>Number has hidden</p>}
         <Input style={{height: 40, boderColor: 'gray', borderWidth: 1}}
               onChange={this.handleChange}/>
         <p>{this.state.name}</p>

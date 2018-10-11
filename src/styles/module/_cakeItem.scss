@@ -1,0 +1,63 @@
+.list-item {
+  @include pxRem(padding, 90 0);
+  background-image: url(//cdn.shopify.com/s/files/1/1284/6493/files/icon_wrapper_bg.png?v=1530960319);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-color: $color-primary;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 19px;
+    background: url(https://cdn.shopify.com/s/files/1/1284/6493/files/iconbgtopimg.png?v=1530960253) repeat-x;
+    left: 0;
+  }
+}
+
+.cake {
+  text-align: center;
+  &:hover {
+    a {
+      color: $color-d;
+    }
+    .icon-img {
+      -webkit-transform: scale(1.05) rotate(360deg) translate(0px);
+      transform: scale(1.05) rotate(360deg) translate(0px);
+    }
+  }
+  &__icon {
+    @include pxRem(width, 133);
+    @include pxRem(height, 133);
+    @include pxRem(margin-bottom, 20);
+    display: inline-block;
+    position: relative;
+    background: url(//cdn.shopify.com/s/files/1/1284/6493/files/icon_wrappericon_bg.png?v=1530960694) no-repeat;
+    .icon-img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      margin: auto;
+      -webkit-transition: all 1s ease;
+      transition: all 1s ease;
+    }
+  }
+  &__title {
+    @include pxRem(font-size, 20);
+    @include pxRem(margin-bottom, 20);
+    font-style: oblique;
+    text-transform: capitalize;
+    color: $color-a;
+    a {
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  &__des {
+    @include pxRem(font-size, 14);
+    color: $color-a;
+  }
+}
