@@ -1,6 +1,7 @@
 html, body {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.5px;
   color: #a8b2b7;
   background-color: #ffffff;
   @include s370 {
@@ -26,4 +27,45 @@ html, body {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.text-pink {
+  color: $color-second !important;
+}
+.icon-customize {
+  margin: 0 !important;
+  height: auto !important;
+  vertical-align: -webkit-baseline-middle;
+  vertical-align: middle;
+  font-size: 1.2rem !important;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+
+}
+.dis-inline {
+  display: inline-block;
+  vertical-align: top;
+}
+
+// badge sale
+.badge-sale {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  right: 0;
+  top: 0;
+  .ribbon {
+    width: 100px;
+    position: absolute;
+    line-height: 20px;
+    top: 19px;
+    right: -21px;
+    background-color: #fed0d2;
+    color: $color-primary;
+    text-align: center;
+    text-transform: uppercase;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    box-shadow: 0 3px 10px -7px #000;
+  }
 }

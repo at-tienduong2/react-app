@@ -12,15 +12,9 @@ import {Link } from "react-router-dom"
 class CakeItem extends Component {
 
   render() {
-    const data = "http://localhost:3002/specialties"
-    fetch(data)
-      .then(resp => resp.json())
-      .then(data => {
-        
-      })
-
+    
     return (
-      <div className="list-item">
+      <div className="list-item bg-item">
         <Grid container columns={3}>
           {
             this.props.listCake.map(item => (

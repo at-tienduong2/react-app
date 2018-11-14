@@ -1,5 +1,13 @@
 .section-header {
-  &__title {
+  @include pxRem(padding, 50 0);
+  .title-header {
+    @include pxRem(font-size, 40);
+    font-weight: 400;
+    text-transform: capitalize;
+    color: $color-b;
+    font-family: 'MarckScript-Regular';
+  }
+  .image {
     margin: auto;
   }
 }

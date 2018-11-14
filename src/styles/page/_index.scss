@@ -1,3 +1,54 @@
 .popular-list {
-  @include pxRem(margin, 50 0);
+  @include pxRem(margin, 60 0 0);
+  @include pxRem(padding-bottom, 60);
+  .column-modifi {
+    padding: 0 !important;
+  }
+}
+// popular cake
+.popular-cake {
+  &__thumb {
+    width: 100%;
+    overflow: hidden;
+    .entry-thumb {
+      margin: 0;
+      transition: all 0.7s ease 0s;
+      -webkit-transition: all 0.7s ease 0s;
+    }
+  }
+  &__detail {
+    @include pxRem(padding, 45 10 30);
+    .title {
+      color: #a8b2b7;
+      font-weight: bold;
+      text-transform: capitalize;
+      transition: all 0.4s ease-in-out;
+      a {
+        @include pxRem(font-size, 20);
+        transition: all 0.4s ease-in-out;
+        font-family: 'Gloria Hallelujah';
+      }
+    }
+    .content {
+      @include pxRem(margin, 0 0 15 0);
+      @include pxRem(font-size, 14);
+    }
+  }
+  &:hover {
+    .popular-cake__thumb {
+      overflow: hidden;
+      .entry-thumb {
+        transform: scale(1.5);
+        -weblit-transform: scale(1.5);
+      }
+    }
+    a {
+      color: $color-second;
+    }
+  }
+}
+
+// number items
+.numberitems {
+  background-color: $color-g;
 }
