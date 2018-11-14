@@ -42,31 +42,31 @@
     },
     {
       "id": 2,
-      "title": "beautiful cake",
+      "title": "celebration cake",
       "content": " Distribution,rural development,assitance integrity approch empowerment...",
       "imageUrl": "/img/product4_03_grande.jpg"
     },
     {
       "id": 3,
-      "title": "beautiful cake",
+      "title": "more cake",
       "content": " Distribution,rural development,assitance integrity approch empowerment...",
       "imageUrl": "/img/product5_03_grande.jpg"
     },
     {
       "id": 4,
-      "title": "beautiful cake",
+      "title": "bicosti cake",
       "content": " Distribution,rural development,assitance integrity approch empowerment...",
       "imageUrl": "/img/product6_03_grande.jpg"
     },
     {
       "id": 5,
-      "title": "beautiful cake",
+      "title": "cookies cake",
       "content": " Distribution,rural development,assitance integrity approch empowerment...",
       "imageUrl": "/img/prt4_03_grande.jpg"
     },
     {
       "id": 6,
-      "title": "beautiful cake",
+      "title": "Macaron cake",
       "content": " Distribution,rural development,assitance integrity approch empowerment...",
       "imageUrl": "/img/product1_03_grande.jpg"
     }
@@ -75,17 +75,146 @@
     {
       "id": 1,
       "title": "most populer creations",
-      "imgUrl": "/img/show_divider_1.png"
+      "imgUrl": "/img/show_divider_1.png",
+      "colortitle": true
     },
     {
       "id": 2,
       "title": "Best Deals",
-      "imgUrl": "/img/show_divider_2.png"
+      "imgUrl": "/img/show_divider_2.png",
+      "colortitle": false
     },
     {
       "id": 3,
       "title": "layer cakes",
-      "imgUrl": "/img/show_divider_3.png"
+      "imgUrl": "/img/show_divider_3.png",
+      "colortitle": true
+    }
+  ],
+  "bestDealFirst": [
+    {
+      "id": 1,
+      "isLike": false,
+      "title": "valentine's day cup cake",
+      "price": "$100.00",
+      "imgUrl": "/img/11_grande.jpg",
+      "isBest": true,
+      "inventory": 10
+    },
+    {
+      "id": 2,
+      "isLike": false,
+      "title": "jewelled fruit cake",
+      "price": "$120.00",
+      "sale": "$300.00",
+      "imgUrl": "/img/12_grande.jpg",
+      "isBest": true,
+      "inventory": 15
+    }
+  ],
+  "bestDeals": [
+    {
+      "id": 3,
+      "isLike": false,
+      "title": "Day Fortunes cup cake",
+      "price": "$120.00",
+      "imgUrl": "/img/6_grande.jpg",
+      "isBest": false,
+      "inventory": 20
+    },
+    {
+      "id": 4,
+      "isLike": false,
+      "title": "Heartfelt Gift Basket",
+      "price": "$200.00",
+      "sale": "$400.00",
+      "imgUrl": "/img/5_grande.jpg",
+      "isBest": false
+    },
+    {
+      "id": 5,
+      "isLike": false,
+      "title": "Sweet Cup Cake",
+      "price": "$120.00",
+      "imgUrl": "/img/7_grande.jpg",
+      "isBest": false,
+      "inventory": 25
+    }
+  ],
+  "contentTabs": [
+    {
+      "id": 1,
+      "urlImage": "/img/tab_iconimgone.png",
+      "title": "Monkey Love Cup Cake",
+      "class": "img1 bg-img",
+      "quanlity": "2",
+      "productType": "Crumble",
+      "productVendor": "Cuplt",
+      "price": "500.00",
+      "sale": "450.00",
+      "imageTab": "/img/products16.jpg"
+    },
+    {
+      "id": 2,
+      "urlImage": "/img/tab_iconimgtwo.png",
+      "title": "Children's Cup Cake",
+      "class": "img2 bg-img",
+      "quanlity": "2",
+      "productType": "Coolies",
+      "productVendor": "Bingo",
+      "price": "600.00",
+      "sale": "470.00",
+      "imageTab": "/img/products40.jpg"
+    },
+    {
+      "id": 5,
+      "urlImage": "/img/tab_iconimgthree.png",
+      "title": "Happily Ever Cup Cake",
+      "class": "img3 bg-img",
+      "quanlity": "2",
+      "productType": "Cup Cake",
+      "productVendor": "Isveet",
+      "price": "300.00",
+      "sale": "250.00",
+      "imageTab": "/img/products20.jpg"
+    },
+    {
+      "id": 4,
+      "urlImage": "/img/tab_iconimgfour.png",
+      "title": "Heart To Heart Cup Cake",
+      "class": "img4 bg-img",
+      "quanlity": "2",
+      "productType": "Crumble",
+      "productVendor": "Cuplt",
+      "price": "500.00",
+      "sale": "470.00",
+      "imageTab": "/img/products21.jpg"
+    }
+  ],
+  "numberItems": [
+    {
+      "id": 1,
+      "number": 20,
+      "name": "Branches",
+      "img": "https://cdn.shopify.com/s/files/1/1284/6493/files/giftbasketimg.png?v=1531134416"
+    },
+    {
+      "id": 2,
+      "number": 150,
+      "name": "staffs",
+      "img": "https://cdn.shopify.com/s/files/1/1284/6493/files/giftbasketimg.png?v=1531134416"
+    },
+    {
+      "id": 3,
+      "number": 25,
+      "name": "Years Service",
+      "img": "https://cdn.shopify.com/s/files/1/1284/6493/files/giftbasketimg.png?v=1531134416"
+    },
+    {
+      "id": 4,
+      "number": 1,
+      "name": "Love",
+      "img": "https://cdn.shopify.com/s/files/1/1284/6493/files/giftbasketimg.png?v=1531134416"
     }
   ]
   

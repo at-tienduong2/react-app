@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { increase, decrement } from './../actions/counter'
 
 class DiaryPage extends Component {
   constructor(props){

@@ -1,0 +1,112 @@
+.best-item {
+  background: $color-a;
+  margin-bottom: 25px;
+  box-shadow: 0 0 0 1px #f4f4f4;
+  transition: padding-bottom 0.3s ease-in-out, box-shadow 0.3s ease-out;
+  &:hover {
+    .img {
+      transform: scale(1.2, 1.2) rotate(3deg) translate(0px);
+    }
+    .best-button {
+      bottom: 0 !important;
+    }
+    .detail {
+      padding: 20px 10px 20px;
+      .title {
+        color: $color-primary;
+      }
+    }
+  }
+  .thumb {
+    position: relative;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    .entry-thumb {
+      overflow: hidden;
+      position: relative;
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      .img {
+        transition: all 0.5s ease 0s;
+        -webkit-transition: all 0.5s ease 0s;
+      }
+    }
+    .best-button {
+      text-align: center;
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: -37px;
+      top: auto;
+      transition: all 1s ease-in-out;
+      -webkit-transition: all 1s ease-in-out;
+      a {
+        width: 50px;
+        height: 50px;
+        font-size: 28px;
+        border-radius: 50%;
+        background-color: $color-primary;
+        color: $color-a;
+        border: 3px solid $color-a;
+        box-sizing: content-box;
+        display: inline-block;
+        margin-right: 10px;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        &:hover {
+          i {
+            transform: scale(1.05) rotate(360deg) translate(0px);
+          }
+        }
+      }
+    }
+  }
+  .detail {
+    padding: 40px 10px 20px;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    .title {
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      font-weight: 300;
+      text-transform: capitalize;
+      line-height: 1.7;
+      transition: all 1s ease;
+      -webkit-transition: all 1s ease;
+    }
+    .content {
+      .rating {
+        display: block;
+        margin-bottom: 15px;
+      }
+      
+    }
+  }
+}
+
+// style price
+.best-price {
+  display: block;
+  .sale-price {
+    margin-right: 10px;
+    color: $colo-e;
+  }
+  .price {
+    color: $color-primary;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+  }
+}
+
+.product-best {
+  -webkit-transition: padding-bottom 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-out;
+  -moz-transition: padding-bottom 0.3s ease-in-out, -moz-box-shadow 0.3s ease-out;
+  -o-transition: padding-bottom 0.3s ease-in-out, -o-box-shadow 0.3s ease-out;
+  -ms-transition: padding-bottom 0.3s ease-in-out, -ms-box-shadow 0.3s ease-out;
+  transition: padding-bottom 0.3s ease-in-out, box-shadow 0.3s ease-out;
+}
+

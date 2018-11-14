@@ -1,9 +1,54 @@
 .bg-popular {
   background-image: url(/img/collection_parallax_2.png);
+  background-position: 100% -35px;
 }
 .bg-best {
   background-image: url(/img/home_best_selling_img.png);
+  background-color: $color-f;
 }
 .bg-layerCakes {
   background-image: url(https://cdn.shopify.com/s/files/1/1284/6493/files/offer_bg.png?v=1531128880);
+}
+.bg-item {
+  @include pxRem(padding, 90 0);
+  background-image: url(//cdn.shopify.com/s/files/1/1284/6493/files/icon_wrapper_bg.png?v=1530960319);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: top;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 19px;
+    background: url(https://cdn.shopify.com/s/files/1/1284/6493/files/iconbgtopimg.png?v=1530960253) repeat-x;
+    left: 0;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 19px;
+    background: url(//cdn.shopify.com/s/files/1/1284/6493/files/iconbgwrapperimg.png?v=1530961724) repeat-x;
+  }
+}
+
+//background-tab
+.img1 {
+  background-image: url(/img/tab_bgimgone.png);
+}
+.img2 {
+  background-image: url(/img/tab_bgimgtwo.png);
+}
+.img3 {
+  background-image: url(/img/tab_bgimgthree.png);
+}
+.img4 {
+  background-image: url(/img/tab_bgimgfour.png);
+}
+.img-bg-tab {
+  background-repeat: no-repeat
 }

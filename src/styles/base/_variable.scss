@@ -6,19 +6,15 @@ body {
 
 /*Color*/
 
-$color-primary: #f06178;
+$color-primary: #ff7380;
+$color-second: #f06178;
 $color-a: #ffffff;
-$color-b: #6f9a37;
+$color-b: #9fc58d;
 $color-c: #4b4342;
 $color-d: #ffda6b;
-$color-f: #ECECEC;
-$color-g: #888888;
-$color-aa: #666c73;
-$color-bb: #4d535a;
-$color-cc: #394047;
-$color-dd: #2c3137;
-
-
+$color-f: #f4f4f4;
+$colo-e: #bfbfbf;
+$color-g: #78d6f0;
 
 /*Padding*/
 $value : 5px;
@@ -84,4 +80,24 @@ $sizeList : 0, 1, 2, 3, 4, 5, 6, 7, 8;
   .mg-r--#{$size} {
     margin-right: $value * $size !important;
   }
+}
+
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  src: url('/fonts/GloriaHallelujah.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MarckScript-Regular';
+  src: url('/fonts/MarckScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito-ExtraLight';
+  src: url('/fonts/Nunito-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito Light';
+  src: url('/fonts/Nunito-Light.ttf') format('truetype');
 }

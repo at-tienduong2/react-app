@@ -1,21 +1,25 @@
 import React, { Component } from 'react'
-import BEMHelper from 'react-bem-helper'
 import { Image } from 'semantic-ui-react'
-
-const classes = new BEMHelper ({
-  name: 'section-header'
-});
+import { Container } from 'semantic-ui-react'
+import classNames from 'classnames'
 
 class SectionHeader extends Component {
-
-
+  
   render() {
 
+    const titleClasses = classNames({
+      'title-header': true,
+      'text-pink': this.props.imgUrlHeader.colortitle,
+      'center': true
+    })
+
     return (
-      <div {...classes()}>
-        <h2 {...classes('title', '', 'center')}>{this.props.imgUrlHeader.title}</h2>
-        <Image {...classes('image')}src={this.props.imgUrlHeader.imgUrl} />
-      </div>
+      <Container>
+        <div className="section-header">
+          <h2 className={titleClasses}>{this.props.imgUrlHeader.title}</h2>
+          <Image className="image" src={this.props.imgUrlHeader.imgUrl} />
+        </div>
+      </Container>
     )
   }
 }
