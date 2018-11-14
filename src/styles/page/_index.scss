@@ -51,4 +51,64 @@
 // number items
 .numberitems {
   background-color: $color-g;
+  .item-circle {
+    text-align: center;
+    display: table !important;
+    width: 217px;
+    height: 217px;
+    cursor: pointer;
+    background: url(//cdn.shopify.com/s/files/1/1284/6493/files/icon_content.png?v=1531134359)no-repeat scroll center center;
+    background-size: contain;
+    -webkit-transition: background 0.3s linear 0s;
+    transition: background 0.3s linear 0s;
+    &:hover {
+      background: url(//cdn.shopify.com/s/files/1/1284/6493/files/icon_contenthover.png?v=1531134372)no-repeat scroll center center;
+      background-size: contain;
+      transition: background 0.3s linear 0s;
+    }
+  }
+}
+.item-content {
+  display: table-cell;
+  vertical-align: middle;
+  .number-text{
+    font-size: 40px;
+    color: $color-g;
+    font-weight: bold;
+    position: relative;
+  }
+  .number-icon {
+    .number-img {
+      display: inline-block;
+      margin-bottom: 10px;
+      img {
+        margin: auto;
+        display: inline-block;
+      }
+      &:before {
+        background-color: $color-g;
+        content: "";
+        height: 2px;
+        display: inline-block;
+        width: 46px;
+        margin-bottom: 7px;
+        margin-right: 10px;
+      }
+      &:after {
+        background-color: $color-g;
+        content: "";
+        height: 2px;
+        display: inline-block;
+        width: 46px;
+        margin-bottom: 7px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .title {
+    font-size: 16px;
+    color: $color-g;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
 }
